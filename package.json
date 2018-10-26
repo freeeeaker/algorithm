@@ -1,0 +1,23 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "description": "Algorithm exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeeeaker/algorithm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freeeeaker/algorithm/issues"
+  },
+  "homepage": "https://github.com/freeeeaker/algorithm#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
