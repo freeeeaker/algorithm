@@ -1,4 +1,4 @@
-module.exports = function qsort (arr) {
+module.exports = function quickSort (arr) {
   if (arr.length <= 1) return [...arr]
   var privo = arr[0]
   var prev = []
@@ -10,5 +10,5 @@ module.exports = function qsort (arr) {
       last.push(arr[i])
     }
   }
-  return [ ...qsort(prev), privo, ...qsort(last) ]
+  return [ ...quickSort(prev), privo, ...quickSort(last) ]
 }
