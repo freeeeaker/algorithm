@@ -1,3 +1,6 @@
+// 归并排序
+// 思路: 二分之后 排序
+
 function merge (arr1, arr2) {
   var arr = []
   var left = [].slice.call(arr1)

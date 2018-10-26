@@ -1,3 +1,6 @@
+// 选择排序
+// 思路: 每次排序找出 极限元素
+
 module.exports = function selectionSort (arr) {
   if (arr.length < 2) return [...arr]
   var array = [].slice.call(arr)

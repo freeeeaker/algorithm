@@ -1,3 +1,6 @@
+// 希尔排序
+// 思路: 增量分组， 插入排序。 不断减小 增量， 直至 增量为1
+
 const insertionSort = require('./insertionSort.js')
 
 module.exports = function shellSort(arr) {
